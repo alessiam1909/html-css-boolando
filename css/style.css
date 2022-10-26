@@ -8,20 +8,20 @@ body {
     font-family: "Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
  /* creazione header */
- 
+
 .contenitore-arancione {
     background-color: rgba(255,105,0,255);
     width: 100%;
     height: 60px;
     display: flex;
     justify-content: center;
-    position: fixed;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .row-1{
     width: 70%;
     display: flex;
-  
+    justify-content: center;
 }
 
 .logo {
@@ -54,4 +54,111 @@ body {
     justify-content: flex-end;
     align-items: center;
     color: white;
+}
+
+/* creazione corpo della pagina */
+
+.contenitore-riga1 {
+    justify-content: center;
+    margin: 30px auto;
+    width: 70%;
+}
+
+.riga-1, .riga-2 {
+    width: 100%;
+    display: flex;
+}
+
+.contenitore-immagine img {
+    height: 500px;
+    width: 100%;
+}
+
+.contenitore-immagine {
+    position: relative;
+  
+}
+
+.col {
+    width: calc(100%/3);
+    margin: 30px 10px;
+}
+
+
+.cuore {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 25px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.label-rossa {
+    position: absolute;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    padding: 3px;
+    bottom: 40px;
+
+}
+
+.label-verde {
+    position: absolute;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    padding: 3px;
+    bottom: 40px;
+    left: 50px;
+}
+
+.label-verde-speciale {
+    position: absolute;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    padding: 3px;
+    bottom: 40px;
+}
+
+.descizione {
+    padding: 15px 0;
+    position: absolute;
+    bottom: 50px;
+}
+
+.marca {
+    font-size: 13px;
+}
+
+.abbigliamento {
+    font-weight: 600;
+}
+
+.prezzo-scontato {
+    color: red;
+    font-size: 13px;
+}
+
+.prezzo-originale {
+    text-decoration: line-through;
+    font-size: 13px;
+    color: black;
+}
+
+.overlay {
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.overlay:hover {
+    opacity: 1;
 }
