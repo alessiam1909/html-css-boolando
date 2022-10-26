@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+ /* creazione header */
+ 
+.contenitore-arancione {
+    background-color: rgba(255,105,0,255);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.row-1{
+    width: 70%;
+    display: flex;
+  
+}
+
+.logo {
+    margin: 15px auto;
+}
+
+.scelta, .fa-user, .fa-heart, .fa-bag-shopping {
+    padding: 5px;
+}
+
+.contenitore-scelta {
+    width: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+}
+
+.contenitore-logo {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenitore-icone {
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
