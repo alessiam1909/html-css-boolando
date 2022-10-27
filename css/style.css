@@ -74,7 +74,6 @@ body {
 }
 
 .contenitore-immagine img {
-    height: 500px;
     width: 100%;
 }
 
@@ -151,7 +150,6 @@ body {
 }
 
 .overlay {
-    height: 500px;
     width: 100%;
     position: absolute;
     top: 0;
