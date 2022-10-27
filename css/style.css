@@ -15,6 +15,10 @@ body {
     height: 60px;
     display: flex;
     justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
     box-shadow: 5px 5px 5px grey;
 }
 
@@ -60,7 +64,7 @@ body {
 
 .contenitore-riga1 {
     justify-content: center;
-    margin: 30px auto;
+    margin: 90px auto;
     width: 70%;
 }
 
