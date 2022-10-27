@@ -159,6 +159,7 @@ body {
 
 .overlay:hover {
     opacity: 1;
+    transition: all 1.5s;
 }
 
 /* creazione footer */
