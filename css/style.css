@@ -80,7 +80,6 @@ body {
 
 .contenitore-immagine {
     position: relative;
-  
 }
 
 .col {
@@ -103,33 +102,26 @@ body {
 .cuore:hover{
     color: red;
 }
-
-.label-rossa {
+.label {
     position: absolute;
-    background-color: red;
     color: white;
     font-size: 15px;
+    font-weight: 600;
     padding: 3px;
+}
+.label-rossa {
+    background-color: red;
     bottom: 40px;
-
 }
 
 .label-verde {
-    position: absolute;
     background-color: green;
-    color: white;
-    font-size: 15px;
-    padding: 3px;
     bottom: 40px;
     left: 50px;
 }
 
 .label-verde-speciale {
-    position: absolute;
     background-color: green;
-    color: white;
-    font-size: 15px;
-    padding: 3px;
     bottom: 40px;
 }
 
